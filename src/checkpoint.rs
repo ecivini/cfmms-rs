@@ -602,7 +602,7 @@ pub fn construct_checkpoint(
 
                 dex_map.insert(
                     String::from("fee"),
-                    format!("{:?}", uniswap_v2_dex.fee).into(),
+                    uniswap_v2_dex.fee.into(),
                 );
             }
 
